@@ -13,7 +13,8 @@ Once you have the pre-requisites setup, navigate to the [terraform](./terraform)
 The `terraform {}` block in the file is where the state is stored and references a S3 bucket and a DynamoDB key. You must create those beforehand and that is out of scope for this project
 
 # TODO Delete
-[ ] Delete API Gateway
-[ ] Lambda function cy-*-data
-[ ] CloudWatch logs
-[ ] DynamoDB table
+Delete API Gateway
+Lambda function cy-*-data
+CloudWatch logs
+DynamoDB table
+IAM role - iam-lambda-role
